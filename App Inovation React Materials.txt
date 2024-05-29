@@ -1,0 +1,128 @@
+JSX - Extension of HTML
+
+Expression - {} It returns the value of the statement inside the {}.
+
+"Class" should mot be used in React instead "className" must be used in React.
+
+*React  does not have a non close tag*
+
+< >       ----> Parent tag
+  div
+    
+   //tags
+    
+  /div
+</>        ----> Parent tag
+
+
+Element - opening and closing tags are elements.
+
+Virtual DOM - it is a copy of real DOM virtually and it is lightweight , Faster.
+
+Virtual Dom has two versions ----      1  updated version
+
+                                       2   Pre updated version
+
+the proces of comp 2 versions and updating is called "diffing".
+
+React Dom is a React package that provides DOM-specifiactions.
+
+Component  -  own struct
+             
+              exist in same space
+
+Functional Component -  Satteless (It does not store states by default)
+            
+                        normal JS funtions
+    
+                        Hookes are used to handle State in a functional comp.
+
+Props - Imutable aruments passed to a function.
+
+        used to pass data from 1 comp to another comp.
+
+        Read only.
+
+Class Components  - Stateful
+   
+                    handles internal data
+  
+                    Complex code struct
+
+                    1.Init
+                    2.mount
+                    3.Upadate
+                    4.UnMount
+
+
+calss ***** extend React.component{
+   constructor(){
+   super(){
+   this.state={
+    name='loki' , age='20
+}
+}
+render(){
+return(
+{<>
+ </>
+})
+}
+}
+}
+
+ 
+React Hooks :
+
+ Usestate - init state
+ 
+ Use Effect- handle data from backend Api's
+
+ use selector - Select a single page from a webpage.
+
+ useparams - Use to send parameters like props.
+
+ UseContext - Use to select entire webpage.
+
+
+Redux :
+
+ It is a Js lib.
+
+ It stores prj data in in State container.
+
+ It makes state predictable.
+
+ Dispatch is uaed to view state in Redux.
+
+
+ 
+1.action
+2.reducer
+3.store
+
+
+
+
+
+
+
+
+                        
+Redux  :
+
+super - used to bind parent and child .
+ 
+ Add redux dev tools extentation to use redux .
+
+ Createslice - to combine reducer and action.
+
+ name -cart refers to a folder
+
+Confugure store : used to set the path as Store - cartitems - products to be added .
+
+devtools : true (used by developers to ensure  the usage of redux)  .... true makes visible to only dev
+ 
+ 
+ Filter find map???
+
